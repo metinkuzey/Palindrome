@@ -1,4 +1,4 @@
-package com.metinkuzey.polindrome;
+package com.metinkuzey.palindrome;
 
 public class Node {
     char ch;//incoming character

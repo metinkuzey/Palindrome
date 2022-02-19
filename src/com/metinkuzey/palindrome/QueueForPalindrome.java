@@ -1,13 +1,13 @@
-package com.metinkuzey.polindrome;
+package com.metinkuzey.palindrome;
 
-public class QueueForPolindrome {
+public class QueueForPalindrome {
     Node front;     // front node of queue
     Node rear;      // rear node of queue
     int counter;    // queue process counter
     int size;       // queue sie
 
     //constructor of our queue
-    public QueueForPolindrome(int size) {
+    public QueueForPalindrome(int size) {
         this.size = size;
         front = null;
         rear = null;

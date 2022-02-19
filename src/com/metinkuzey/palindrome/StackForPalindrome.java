@@ -1,11 +1,11 @@
-package com.metinkuzey.polindrome;
+package com.metinkuzey.palindrome;
 
-public class StackForPolindrome {
+public class StackForPalindrome {
     Node top;    // top node of our stack
     int counter; // process counter
     int size;    // stack size
 
-    public StackForPolindrome(int size) {
+    public StackForPalindrome(int size) {
         this.size = size;
         counter = 0;
         top = null;

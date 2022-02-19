@@ -1,4 +1,4 @@
-package com.metinkuzey.polindrome;
+package com.metinkuzey.palindrome;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ public class Main {
         boolean result = true;
         Scanner sc = new Scanner(System.in);
         String polindromeWord;
-        StackForPolindrome myStack = new StackForPolindrome(100);
-        QueueForPolindrome myQueue = new QueueForPolindrome(100);
+        StackForPalindrome myStack = new StackForPalindrome(100);
+        QueueForPalindrome myQueue = new QueueForPalindrome(100);
 
         System.out.println("Please a word for checking is your word is polindrome: ");
         polindromeWord = sc.nextLine();
