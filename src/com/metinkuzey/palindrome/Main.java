@@ -1,5 +1,6 @@
 package com.metinkuzey.palindrome;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +12,7 @@ public class Main {
         StackForPalindrome myStack = new StackForPalindrome(100);
         QueueForPalindrome myQueue = new QueueForPalindrome(100);
 
-        System.out.println("Please a word for checking is your word is polindrome: ");
+        System.out.println("Please a word for checking is your word is palindrome: ");
         polindromeWord = sc.nextLine();
         int len = polindromeWord.length();
         char [] myChars = polindromeWord.toCharArray();
@@ -30,8 +31,8 @@ public class Main {
         }
 
         if (result)
-            System.out.println(polindromeWord + " is polindrome.");
+            System.out.println(polindromeWord + " is palindrome.");
         else
-            System.out.println(polindromeWord + " is not polindrome.");
+            System.out.println(polindromeWord + " is not palindrome.");
     }
 }
